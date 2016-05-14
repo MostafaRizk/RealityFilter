@@ -26082,8 +26082,8 @@ THREE.SpritePlugin = function ( renderer, sprites ) {
 		};
 
 		var canvas = document.createElement( 'canvas' );
-		canvas.width = 8;
-		canvas.height = 8;
+		canvas.width = 512;
+		canvas.height = 288;
 
 		var context = canvas.getContext( '2d' );
 		context.fillStyle = 'white';
